@@ -86,7 +86,7 @@ fun ValueBasedAnimationScreen(navController: NavController) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Value-Based Animation") },
+                title = { Text("# Value-Based Animation") },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
                         Icon(Icons.Filled.ArrowBack, contentDescription = "Back")
