@@ -95,7 +95,7 @@ fun AnimatedContentScreen(navController: NavController) {
                 fadeIn() + slideInVertically() togetherWith fadeOut() + slideOutVertically()
             }) { state ->
                 when (state) {
-                    0 -> ContentCard("Red", Color.Red, "Red color")
+                    0 -> ContentCard("Yellow", Color.Yellow, "Yellow color")
                     1 -> ContentCard("Green", Color.Green, "Green color")
                     2 -> ContentCard("Blue", Color.Blue, "Blue color")
                 }
